@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "recordDashBoardTest": "npx cypress run --record --key e4969e5e-d2b2-499a-b972-99c11abeea5b  spec  specPattern='/Users/kamengeorgiev/Documents/Work/CypressAutomationFramework/cypress/e2e/tests/spec.cy.js' --headless"
+  },
   "devDependencies": {
     "cypress": "^12.14.0"
   }
