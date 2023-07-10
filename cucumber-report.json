@@ -1,0 +1,81 @@
+[
+  {
+    "description": "    Application Regression",
+    "elements": [
+      {
+        "description": "",
+        "id": "e2e-ecommerce-validation;ecommerce-products-delivery",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Ecommerce products delivery",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I open Ecommerce Page",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1823000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I add items to Cart",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1300000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Validate the total prices",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I validate the order success",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5471000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 5
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "e2e-ecommerce-validation",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "E2E Ecommerce Validation",
+    "tags": [],
+    "uri": "cypress/e2e/tests/BDD/ecommerce.feature"
+  }
+]
